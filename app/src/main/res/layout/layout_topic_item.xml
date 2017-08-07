@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/topic_image_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/magnus_ias"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/go_to_chapters_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topic_image_view"
+        android:text="Chapters"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/topic_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/topic_image_view"
+        android:text="Physical Geography"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/topic_desc_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topic_title_text_view"
+        android:layout_toRightOf="@id/topic_image_view"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="Understanding of the concept of Physical Geography is vital to conceptualise the concept of not only Geo-Morphology, Climatology, Oceanography but also to appreciate the Economic and Development issues at the international level, which is much sought after in the Civil Services question papers. Even to understand the Geo-political importance of any nation, resource mapping of that particular country needs the background of Geography. We have already seen while studying History, how much it was important to study the Geographical Map. The classes of Physical Geography have been meticulously made. Hope you will enjoy learning. "/>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.magnusias.magnusias.activities.RegisterActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#4242f4">
+
+    <LinearLayout
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="28dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="28dp">
+
+        <EditText
+            android:id="@+id/first_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="First name"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/last_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Last name"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/contact_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Contact number"
+            android:inputType="phone"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:maxLength="10"/>
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white">
+        </Spinner>
+
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="register"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginBottom="30dp"
+            android:background="#1c1c6d"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already has an account ? Login"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+</ScrollView>

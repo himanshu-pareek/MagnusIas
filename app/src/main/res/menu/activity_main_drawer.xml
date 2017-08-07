@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp" />
+
+    <item android:title="About us">
+        <menu>
+            <item
+                android:id="@+id/nav_our_founder"
+                android:icon="@drawable/founder"
+                android:title="Our Founder" />
+            <item
+                android:id="@+id/nav_method_of_teaching"
+                android:icon="@drawable/teaching"
+                android:title="Methodology of teaching" />
+            <item
+                android:id="@+id/nav_mission_and_vision"
+                android:icon="@drawable/mission_and_vision"
+                android:title="Mission and vision" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="FAQ" />
+        </menu>
+    </item>
+
+    <item android:title="Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_pricing"
+                android:icon="@drawable/get_fare"
+                android:title="Pricing" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_input_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

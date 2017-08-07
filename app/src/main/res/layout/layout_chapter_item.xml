@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/chapter_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="Chapter 1 - Overview of the course"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/chapter_desc_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        tools:text="Geography must be studied along with 'Ecology and Environment'. We find the in last 5-6 years 20 to 25 questions have been asked directly from this area. In this chapter, you will get some insight of the questions asked in Geography. "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/video_list_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Video List"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/test_series_button"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Test List"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
